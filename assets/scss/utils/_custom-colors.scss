@@ -1,0 +1,98 @@
+
+
+$primary-120: #003bb7;
+$primary: #0068ff; //base - 100
+$primary-80: #3f95ff;
+$primary-60: #66b1ff;
+$primary-40: #99cfff;
+$primary-10: #e5f4ff;
+
+$success: #7cd31f; //base - 100
+$success-120: #48970f;
+$success-20: #ddfaa5;
+$success-10: #f0fcd1;
+
+$info: #2aaffc;
+$info-120: #1566b5;
+$info-20: #a9effe;
+$info-10: #d4f9fe;
+
+$alert: #ff3a55;
+$alert-120: #b71d4f;
+$alert-20: #ffbbb0;
+$alert-10: #ffe0d7;
+
+$neutral-100: #000000;
+$neutral-80: #4b4b4b;
+$neutral-60: #909090;
+$neutral-40: #ececec;
+$neutral-10: #f9f9f9;
+$neutral-0: #ffffff;
+
+
+$custom-colors: (
+  "primary": $primary,
+  "primary-120": $primary-120,
+  "primary-80": $primary-80,
+  "primary-60": $primary-60,
+  "primary-40": $primary-40,
+  "primary-10": $primary-10,
+  "success": $success,
+  "success-120": $success-120,
+  "success-20": $success-20,
+  "success-10": $success-10,
+  "info": $info,
+  "info-120": $info-120,
+  "info-20": $info-20,
+  "info-10": $info-10,
+  "alert": $alert,
+  "alert-120": $alert-120,
+  "alert-20": $alert-20,
+  "alert-10": $alert-10,
+  "neutral-100": $neutral-100,
+  "neutral-80": $neutral-80,
+  "neutral-60": $neutral-60,
+  "neutral-40": $neutral-40,
+  "neutral-10": $neutral-10,
+  "neutral-0": $neutral-0,
+);
+
+
+.bg-gradient {
+  background-image: linear-gradient(180deg, #F0F6FF, rgba($white, 0));
+}
+.bg-gradient2 {
+  background-image: linear-gradient(180deg, rgba($white, 0), #F0F6FF);
+  border-bottom:100px;
+}
+
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+//rounded-8 20
+//rounded-7 12
+
+///fs
+/// 1 48 
+/// 2 40 
+/// 3 32 
+/// 4 28 
+/// 5 24 
+/// 6 20 
+/// 7 16 
+/// 8 14 
+/// 9 12
+///  
+/// patting
+/// 1 8 
+/// 2 12 
+/// 3 16 
+/// 4 20 
+/// 5 24 
+/// 6 28 
+/// 7 32 
+/// 8 36 
+/// 9 40 
+/// 10 48 
+/// 11 60 
+/// 12 80

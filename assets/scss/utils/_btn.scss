@@ -1,0 +1,153 @@
+//變數
+@mixin hover-effect {
+  color: white;
+  background-color: $primary;
+}
+@mixin hover-effect-2 {
+  color:  $primary;
+  background-color: white;
+  border: 1px solid $primary;
+}
+@mixin hover-effect-3{
+  background-color: $primary-10;
+  color:  $primary;
+}
+
+@mixin patting-1{
+  padding: 16px 32px;
+}
+@mixin patting-2{
+  padding: 8px 12px;
+}
+@mixin patting-3{
+  padding: 12px 16px;
+}
+@mixin patting-4{
+  padding: 20px;
+}
+
+//badge
+.custom-badge{
+  @include patting-2 ;
+  border-radius:100px;
+  font-size: 14px;
+}
+
+//------------------------------------//
+//badge
+.custom-badge2{
+  @include patting-2 ;
+  border-radius:100px;
+  font-size: 14px;
+  background-color: $alert-10;
+  color:$alert;
+}
+
+
+//custom-btn-all
+.custom-btn-all{
+  a,button{  
+    color: $neutral-80 ;
+    background-color: white;
+    &:hover{
+     @include hover-effect;
+    } 
+  }
+
+
+  //樣式
+  .custom-1{ 
+    color:$neutral-80;
+    background-color: white;
+    border: 1px solid $neutral-40;
+    font-weight: normal;
+    @include patting-3 ;
+  }
+  .custom-2{
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+  } 
+  .custom-3{
+    color: $neutral-80;
+    background-color: $neutral-40;
+    text-align: center;
+    @include patting-3 ;
+  }
+  .custom-4{
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+  }
+  .custom-5{
+    @include patting-1 ;
+  }
+  .custom-6{
+    color: $neutral-60;
+    font-weight: 600;
+    margin-right: 12px;
+    background-color: transparent;
+    @include patting-1;
+
+    &:hover{
+      @include hover-effect-3;
+     } 
+  }
+  .custom-7{
+    @include patting-4;
+    &:hover{
+      @include hover-effect-3 ;
+      
+     } 
+  }
+
+
+  //點擊填滿
+  .active{
+    @include hover-effect;  
+  }
+  //點擊線框
+  .active-2{
+    @include hover-effect-2;
+  }
+}
+
+
+//custom-tabs
+.custom-tabs-item{
+  .custom-tabs-btn{
+    padding: 20px 0px;
+    border: 0px;
+    background-color: transparent;
+    margin-right: 32px;
+    color: #000;
+    position: relative;
+      
+  }
+  .active{ 
+    color: $primary;
+    font-weight: 600;
+    &::after{
+      content:"";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%);
+      width: 32px;
+      height: 4px;
+      opacity: 1;
+      border: 2px solid $primary;
+
+    }
+  }  
+  }
+
+
+  .box-a{
+    &::after{
+      content: "\e5cc";
+      font-family: "Material Symbols Outlined";
+      font-weight: 600;
+      
+    }
+  }

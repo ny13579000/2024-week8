@@ -1,0 +1,90 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f9f9;
+  }
+  .gray-200 {
+    color: #4b4b4b;
+  }
+  a {
+    color: #4b4b4b;
+    text-decoration: none;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .fs-12 {
+    font-size: 12px;
+  }
+  .fs-14 {
+    font-size: 14px;
+  }
+  .ms-12 {
+    margin-left: 12px;
+  }
+  .fw-600 {
+    font-weight: 600;
+  }
+  .accordion-icon {
+    color: #4b4b4b;
+    font-size: 24px;
+  }
+  .accordion-item {
+    border-radius: 8px !important;
+    margin-bottom: 16px;
+    .accordion-button {
+      border-radius: 8px 8px 0 0 !important;
+      &.collapsed {
+        border-radius: 8px ;
+      }
+    }
+    & a:hover {
+      background-color: #ececec;
+    }
+    &-icon {
+      font-size: 24px;
+    }
+  }
+  .accordion-item:last-child {
+    margin-bottom: 0;
+  }
+  .accordion-button {
+    background-color: #ececec;
+    &:not(.collapsed) {
+      background-color: #ececec;
+      color: #000000;
+    }
+  }
+  .accordion-button::after {
+    color: #4b4b4b;
+  }
+  .quantity-time {
+    letter-spacing: 0.28px;
+  }
+  .try-it {
+    background-color: #0068ff;
+    color: #ffffff;
+    border-radius: 8px;
+  }
+  .circle {
+    width: 6px;
+    height: 6px;
+    background-color: #909090;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  /*accordion icon 更換*/
+  .accordion-button::after {
+    content: "keyboard_arrow_down" ; //icon 名稱
+    font-family:"Material Icons"; // 採用的 icon 庫
+    width: auto !important;
+    height: auto !important;
+    font-size: 24px;
+    color: #4b4b4b;
+    background-image: none;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+  }
+  
+//d-48

@@ -1,0 +1,86 @@
+.w-30{
+  width: 30%;
+}
+.w-76{
+  width: 76%;
+}
+.w-80{
+  width: 80%;
+}
+.w-90{
+  width: 90%;
+}
+.w-98{
+  width: 98%;
+}
+
+.w-1500{
+  width:1500px ;
+  margin-left: auto;
+}
+.w-1656{
+  max-width: 1656px;
+}
+.custom-col-1{
+  width: 100%;
+  max-width: 400px;
+}
+.rounded-6{
+  border-radius: 50px;
+  @include media-breakpoint-up(lg) {
+    border-radius: 100px;
+  }
+}
+.rounded-top-6{
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.rounded-7{
+  border-radius: 12px;
+}
+.rounded-8{
+  border-radius: 20px;
+}
+//元件
+//deco
+.custom-deco {
+  
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -25px;
+    left: -25px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/asterisk-1.png);
+    
+  }
+}
+
+
+//icon
+.icon{
+  position: relative;
+  top: 5px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+  //
+  .custom-img{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
