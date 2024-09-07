@@ -6,7 +6,7 @@ AOS.init();
 var swiper = new Swiper(".mySwiper", {
   centeredSlides: true,
   initialSlide: 1,
-  slidesPerView: 1.1,
+  slidesPerView: 1.3,
   grabCursor: true,
   rewind: true,
   loop: true,
