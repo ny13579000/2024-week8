@@ -95,3 +95,34 @@
     border-right: 0px; 
   }
 }
+
+//dropdown
+.custom-dropdown-title{
+  background-color: white;
+  color: $neutral-80;
+  font-weight: normal;
+  border: 1px solid $neutral-40;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  &:hover,&:active{
+     border: 1px solid $neutral-40;
+  }
+}
+
+.custom-dropdown{ 
+  width: 100%;
+  .custom-dropdown-item{
+      padding: 16px;
+      width: 95%; 
+      margin: 0 auto;
+      border-radius: 10px;
+      &:hover,
+      .custom-drop-1{
+          background-color: $primary-10; 
+          font-weight: 600;
+          color: $primary;
+      }
+  }
+  
+}
