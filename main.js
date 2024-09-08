@@ -1,7 +1,6 @@
 import './assets/scss/all.scss';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-AOS.init();
 
 var swiper = new Swiper(".mySwiper", {
   centeredSlides: true,
@@ -87,7 +86,7 @@ var swiper = new Swiper(".mySwiper4", {
 
 var swiper = new Swiper(".mySwiper5", {
   
-  spaceBetween: 30,
+ 
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -103,7 +102,7 @@ var swiper = new Swiper(".mySwiper5", {
     },
     1200: {  //当屏幕宽度大于等于768 
       slidesPerView: 4,
-      spaceBetween: 30
+      spaceBetween: 50
     },
   },
   navigation: {
@@ -111,3 +110,8 @@ var swiper = new Swiper(".mySwiper5", {
     prevEl: ".swiperbutton-prev",
   },
 });
+
+
+
+
+AOS.init();

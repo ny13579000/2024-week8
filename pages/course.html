@@ -22,37 +22,30 @@
   </head>
   <body class="bg-neutral-20">
     <%- include('./layout/header'); -%>
-    <section class="course bg-gradient2 position-relative">
-      <div class="container my-lg-15 my-10">       
+    <section class="course bg-gradient2 rounded-9 pt-10 pb-15">
+      <div class="container position-relative">       
         <ul class="mb-10 d-flex">
-          <li class="me-1">
-            <a href="#" class="text-neutral-80 fs-8">所有課程
-              <span class="ms-2">/</span></a>
-          </li>
-          <li class="me-1"><a href="#" class="text-neutral-80 fs-8">程式設計
-            <span class="ms-2">/</span>
-          </a></li>
-          <li class="me-1"><a href="#" class="text-neutral-80 fs-8">網頁前端
-           
-          </a></li>
+          <li class="me-1"><a href="#" class="text-neutral-80 fs-8">所有課程<span class="ms-2">/</span></a></li>
+          <li class="me-1"><a href="#" class="text-neutral-80 fs-8">程式設計<span class="ms-2">/</span></a></li>
+          <li class="me-1"><a href="#" class="text-neutral-80 fs-8">網頁前端</a></li>
         </ul> 
         <div class="row">
-          <div class="col-lg-7 col-12">
+          <div class="col-lg-7 col-12 ">
             <img src="../assets/images/hero-4.png" alt="hero-1" class="custom-img">
           </div>
-          <div class="col-lg-5 col-12">
-            <div class="c-active mt-2 mt-lg-0">
+          <div class="col-lg-5 col-12 d-flex flex-column">
+            <div class="mt-2 mt-lg-0">
               <a href="" class="btn badge custom-badge bg-primary-10 text-primary ">程式設計</a>
               <a href="" class="btn badge custom-badge bg-primary-10 text-primary ">小白友善</a>
               <a href="" class="btn badge custom-badge bg-primary-10 text-primary ">網站設計</a>
             </div>
-            <div class="">
+            <div class="flex-grow-1">
               <h1 class="fw-semibold mb-7">使用 HTML、CSS 開發一個網站</h1>
               <p class="mb-7">為你打造就算沒有程式基礎，也能夠逐步學習獲得網頁排版技巧的紮實觀念，六角學院的講師將協助你成就更好的自己！</p>
               <p class="fw-bold">16,390 人 <span class="fw-normal">已註冊</span></p>  
             </div>     
-            <ul class="custom-btn-all d-flex align-items-center mt-auto ">
-              <li class="me-2">
+            <ul class="custom-btn-all d-flex mt-auto">
+              <li class="me-2 ">
                 <a class="btn custom-2 fs-8 fw-bold active-2" role="button" aria-disabled="true">
                 <span class="material-symbols-outlined me-1">bookmark</span>
                 <span>我的收藏</span>
@@ -65,55 +58,55 @@
                 </a>
               </li>
             </ul>
-
           </div>
         </div>
       </div>
+    </section>
+    <section class="position-relative">
       <div class="container">
-        <ul class="row bg-white rounded-8 py-9 px-10 mb-5 shadow d-flex flex-lg-row flex-column">
-          <li class="col-lg-3 col px-lg-5 p-5 border-lg-end border-bottom d-flex flex-column justify-content-between">
-            <h6 class="text-neutral fw-semibold border-lg-end border-none">
+        <ul class="row bg-white rounded-8 py-9 px-10 m-5 shadow d-flex flex-lg-row flex-column position-relative" style="bottom: 90px;">
+          <li class="col-lg-3 col px-lg-5 p-5 custom-border d-flex flex-column justify-content-between">
+            <h6 class="text-neutral fw-semibold ">
               <img src="../assets/images/logo-six-sm.png" alt="logo-six-sm" class="me-1">六角學院
             </h6>
             <p>高雄最大線上程式開發學習單位</p>
           </li>
-          <li class="col-lg-3 col px-lg-5 p-5 border-lg-end border-bottom d-flex flex-column justify-content-between">
-            <h6 class="text-neutral fw-semibold">
+          <li class="col-lg-3 col px-lg-5 p-5 custom-border d-flex flex-column justify-content-between ">
+            <h6 class="text-neutral fw-semibold d-flex align-items-center">
               <span class="material-symbols-outlined fs-4 text-warning">star</span>
               4.9</h6>
             <p>13,208 條評論</p>
           </li>
-          <li class="col-lg-3 col px-lg-5 p-5 border-lg-end border-bottom d-flex flex-column justify-content-between">
+          <li class="col-lg-3 col px-lg-5 p-5 custom-border d-flex flex-column justify-content-between">
             <h6 class="text-neutral fw-semibold">3 時 25 分</h6>
             <p>16 個單元，4 個課後學習作業</p>
           </li>
           <li class="col-lg-3 col px-lg-5 p-5 d-flex flex-column justify-content-between">
-            <div class="badge-sm bg-primary-10">前端開發類別排名第一名 🔥</div>
+            <p class="btn badge custom-badge text-primary bg-primary-10 mb-2">前端開發類別排名第一名 🔥</p>
             <p>16,390 人已註冊</p>
           </li>
         </ul>
       </div>
     </section>
-
     
 
     <!--03-day48-->
     <section>
-      <div class="container-fulid border-bottom sticky-top">
+      <div class="container-fulid border-bottom sticky-top bg-neutral-10">
         <div class="container">
           <ul class="nav nav-pills " id="pills-tab" role="tablist">
             <li class="custom-tabs-item" >
-              <a class="custom-tabs-btn active" href="#1" data-bs-toggle="btn">課程介紹</a>
+              <a class="custom-tabs-btn active" href="#1">課程介紹</a>
             </li>
 
             <li class="custom-tabs-item">
-              <a class="custom-tabs-btn"  href="#2" data-bs-toggle="btn" data-bs-target="#pills-profile">預計單元</a>
+              <a class="custom-tabs-btn"  href="#2" >預計單元</a>
             </li>
             <li class="custom-tabs-item">
-              <a class="custom-tabs-btn"  href="#3" data-bs-toggle="zz" data-bs-target="#pills-profile">關於講師</a>
+              <a class="custom-tabs-btn"  href="#3" >關於講師</a>
             </li>
             <li class="custom-tabs-item">
-              <a class="custom-tabs-btn"  href="#4" data-bs-toggle="zz" data-bs-target="#pills-profile">購課前問答</a>
+              <a class="custom-tabs-btn"  href="#4" >購課前問答</a>
             </li>
           </ul>
         </div>
@@ -122,7 +115,7 @@
         <div class="row">
           <!--left-->
           <div class="col-lg-8 col">
-            <div id="1" >
+            <div id="1">
               <div class="d-flex flex-lg-row flex-column">
                 <div class="title d-flex">
                   <img src="../assets/images/asterisk-sm-1.png" alt="asterisk-sm-1" width="24" height="24" class=" me-1">
@@ -142,7 +135,7 @@
                 </picture>
               </div>
             </div>  
-            <div id="2" >
+            <div id="2">
               <div class="">
                 <div class="title d-flex my-3">
                   <img src="../assets/images/asterisk-sm-1.png" alt="asterisk-sm-1" width="24" height="24" class=" me-1">
@@ -289,19 +282,31 @@
               </div>
               <div class="card-body">   
                 <div class="px-7 py-3 mt-5 rounded-8 bg-white">
-                  <div class="box-title d-flex border-bottom mt-9">
-                    <img src="../assets/images/logo-six.png" alt="logo-six" width="80" height="80">
-                    <div class="ms-3">
-                      <h6 class="mb-1">六角學院</h6>
-                      <P class="mb-3">打破線上課程售後不理，我們在線上等你！帶你學到會的線上課程。</P>
-                      <div class="d-flex mb-10">
-                        <p class="pe-3 border-end">2 堂課程</p>
-                        <p class="px-3 border-end">1,567 個學生</p>
-                        <p class="px-3 ">1,034 則評論</p>
+                    <div class="box-title d-flex mt-9">
+                      <div class="">
+                        <img src="../assets/images/logo-six.png" alt="logo-six" width="80" height="80">
+                      </div>
+                      <div class="ms-3">
+                        <h6 class="mb-1">六角學院</h6>
+                        <P class="mb-3">打破線上課程售後不理，我們在線上等你！帶你學到會的線上課程。</P>
+                        <div class="d-none d-lg-block"> 
+                          <ul class="d-flex ">
+                            <li><a href="#"><p class="pe-3 border-end">2 堂課程</p></a></li>
+                            <li><a href="#"><p class="px-3 border-end">1,567 個學生</p></a></li>
+                            <li><a href="#"><p class="px-3 ">1,034 則評論</p></a></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="box-body mt-9 text-neutral-80 ">
+                    <div class=" mb-0 d-block d-lg-none"> 
+                      <ul class="d-flex py-0 ">
+                        <li><a href="#"><p class="pe-3 border-end">2 堂課程</p></a></li>
+                        <li><a href="#"><p class="px-3 border-end">1,567 個學生</p></a></li>
+                        <li><a href="#"><p class="px-3 ">1,034 則評論</p></a></li>
+                      </ul>
+                    </div>
+                  
+                  <div class="box-body mt-3 text-neutral-80  border-top py-6 ">
                     <p class="mb-3">六角學院是一所線上程式開發學習單位，目前已累積 20,000 名學員，讓更多人藉由線上學習在職涯規劃上有更多的選擇是我們的使命是，如果您贊同我們的理念，歡迎加入六角。</p>
                     
                     <p>我們將深入了解您想發展的領域，每位實習生我們都會量身打造專屬於您的舞台，並讓您實際瞭解公司營運 Know how。</p>
@@ -317,12 +322,15 @@
                 <h6 class="fw-semibold">購課前問答</h6>
               </div>
               <div class="card-body my-3">
-                <div class="px-7 py-3 mt-5 rounded-8 bg-white d-flex ">
+                <div class="px-7 py-3 mt-5 rounded-8 bg-white d-flex flex-lg-row flex-column">
                   <div class="box-title mt-9">
-                    <img src="../assets/images/avatar-3.png" alt="avatar-3" width="60" height="60" class="me-5">
+                    <div class="d-flex">
+                      <img src="../assets/images/avatar-3.png" alt="avatar-3" width="60" height="60" class="me-5">
+                      <h6 class="mb-3 d-block d-lg-none">Jessica</h6>
+                    </div>
                   </div>
                   <div class="box-body mt-9 text-neutral-80 w-100">
-                    <h6 class="mb-3">Jessica</h6>
+                    <h6 class="mb-3 d-none d-lg-block">Jessica</h6>
                     <div class="form-floating">
                       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px;"></textarea>
                       <label for="floatingTextarea2">上課前有什麼疑問嗎？ <br class="d-block d-lg-none">在這裡盡情詢問講師！</label>
@@ -337,15 +345,22 @@
                       </div>
                     </div>
                   </div>
-                  
                 </div>
-                <div class="px-7 py-3 mt-5 rounded-8 bg-white d-flex ">
+                <div class="px-7 py-3 mt-5 rounded-8 bg-white d-flex flex-lg-row flex-column">
                   <div class="box-title mt-9">
-                    <img src="../assets/images/avatar-3.png" alt="avatar-3" width="60" height="60" class="me-5">
+                    <div class="d-flex">
+                      <img src="../assets/images/avatar-4.png" alt="avatar-4" width="60" height="60" class="me-5">
+                      <div class="mb-3 d-block d-lg-none">
+                        <h6 class="text-neutral fs-7">Jessica</h6>
+                      <time datetime="20240130" class="fs-8 text-neutral-60">2024-01-30</time>
+                      </div>
+                    </div>
                   </div>
                   <div class="box-body mt-9 text-neutral-80 w-100">
-                    <h6 class="text-neutral fs-7 ">Jessica</h6>
-                    <time datetime="20240130" class="fs-8 text-neutral-60">2024-01-30</time>
+                    <div class="mb-3 d-none d-lg-block">
+                      <h6 class="text-neutral fs-7">Jessica</h6>
+                      <time datetime="20240130" class="fs-8 text-neutral-60">2024-01-30</time>
+                    </div>
                     <ul class="mb-3">
                       老師您好，想問您:
                       <li>1. 課程是用MAC作業系統，只使用Windows作業系統的同學會有學習上的問題嗎~</li>
@@ -354,7 +369,7 @@
                     </ul>
                     <div class="bg-neutral-10 p-5 rounded-2">
                      <div class="mb-5">
-                      <h6 class="text-neutral fs-7 ">六角學院
+                      <h6 class="text-neutral fs-7 fw-semibold mb-1">六角學院
                         <span class="fs-9 text-primary border border-primary rounded-2" style="padding:4px;">授課老師</span></h6>
                       <time datetime="20240130" class="fs-8 text-neutral-60">2024-01-30</time>
                      </div>
@@ -362,6 +377,40 @@
                         <p>嗨嗨 Brian <br>我是六角學院助教 Bingbingboom<br><br>
                         關於同學的問題：<br>1.使用 Windows 系統是可以的，沒有問題哩 ～<br>2.課程內容都是相同的哦 ～<br><br>                  
                         若有問題歡迎再次發問 :D
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="px-7 py-3 mt-5 rounded-8 bg-white d-flex flex-lg-row flex-column">
+                  <div class="box-title mt-9">
+                    <div class="d-flex">
+                      <img src="../assets/images/avatar-3.png" alt="avatar-3" width="60" height="60" class="me-5">
+                      <div class="mb-3 d-block d-lg-none">
+                        <h6 class="text-neutral fs-7">Sandy</h6>
+                      <time datetime="20241229" class="fs-8 text-neutral-60">2023-12-29</time>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box-body mt-9 text-neutral-80 w-100">
+                    <div class="mb-3 d-none d-lg-block">
+                      <h6 class="text-neutral fs-7">Sandy</h6>
+                      <time datetime="20241229" class="fs-8 text-neutral-60">2023-12-29</time>
+                    </div>
+                    <!--qa-->
+                    <div class="qa">
+                      <p class="mb-3">您好，這個課程跟六角網站上的課程是一樣的嗎?</p>
+                    </div>
+                    <!--ans-->
+                    <div class="ans bg-neutral-10 p-5 rounded-2">
+                     <div class="mb-5">
+                      <h6 class="text-neutral fs-7 fw-semibold mb-1">六角學院
+                        <span class="fs-9 text-primary border border-primary rounded-2" style="padding:4px;">授課老師</span></h6>
+                      <time datetime="20240131" class="fs-8 text-neutral-60">2024-01-31</time>
+                     </div>
+                      <div class="text-neutral-80">
+                        <p>嗨嗨 Sandy <br>我是六角學院助教 Bingbingboom <br><br> 對的，這部分因為字幕問題還沒有更新<br>後續等字幕用好了就會更新哩！<br><br>若有問題歡迎再次發問 :D
                         </p>
                       </div>
                     </div>
@@ -409,11 +458,12 @@
                 </li>
               </ul>
             </div>
+
           </div> 
 
            <!--right-->
-          <div class="col-lg-4 d-none d-lg-block">
-            <div class="bg-white rounded-4 border px-7 py-5">
+          <div class="col-lg-4 d-none d-lg-block ">
+            <div class="bg-white rounded-4 border-0 px-7 py-5 t-4 sticky-top shadow">
               <p>購買本堂課</p>
               <hr>
               <a href="" class="btn badge custom-badge2 mb-5">限定優惠 75 折</a>  
@@ -435,13 +485,28 @@
 
             
           </div>
+          <div class="col-12 bg-white d-lg-none fixed-bottom border-top py-3">
+            <div class="d-flex justify-content-around align-items-center">      
+              <div class=""> 
+                <h3 class="fw-semibold me-2 ">NT$ 2,480</h3>
+                <p class="text-neutral-80">16,390 人已註冊</p> 
+              </div>
+              <div class="d-flex align-items-center custom-btn-all ">
+                <a href="#" class="btn custom-8 d-flex p-3 align-items-center me-2"><span class="material-symbols-outlined unfilled">shopping_cart</span>
+                </a>
+                <a href="#" class="btn custom-8 active px-12 px-md-15 py-3 ">立即購買</a>
+                
+              </div>
+            </div>
+            
+
+            
+          </div>
         </div>
 
 
 
     </section>
-
-    <!--04-->
 
 
 

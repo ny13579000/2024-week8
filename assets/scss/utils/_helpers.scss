@@ -1,6 +1,9 @@
 .w-30{
   width: 30%;
 }
+.w-40{
+  width: 40%;
+}
 .w-76{
   width: 76%;
 }
@@ -13,7 +16,9 @@
 .w-98{
   width: 98%;
 }
-
+.t-4{
+  top: 100px;
+}
 .w-1500{
   width:1500px ;
   margin-left: auto;
@@ -21,6 +26,7 @@
 .w-1656{
   max-width: 1656px;
 }
+
 .custom-col-1{
   width: 100%;
   max-width: 400px;
@@ -41,6 +47,9 @@
 .rounded-8{
   border-radius: 20px;
 }
+.rounded-9{
+  border-radius: 200px;
+}
 //元件
 //deco
 .custom-deco {
@@ -59,7 +68,6 @@
   }
 }
 
-
 //icon
 .icon{
   position: relative;
@@ -73,8 +81,6 @@
   'opsz' 24
 }
 
-
-
   //
   .custom-img{
     border-radius: 20px;
@@ -83,4 +89,9 @@
     object-fit: cover;
   }
 
-
+.custom-border{
+  border-right: 1px solid $neutral-40;
+  @media screen and (max-width:992px) {
+    border-right: 0px; 
+  }
+}
