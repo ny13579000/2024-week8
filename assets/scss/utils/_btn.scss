@@ -117,13 +117,10 @@
       @include hover-effect-3 ;
      } 
   }
-
   .custom-8{
     border: 1px solid $primary;
-    color: $primary;
-    
+    color: $primary; 
   }
-
   //點擊填滿
   .active{
     @include hover-effect;  
